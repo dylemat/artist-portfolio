@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Quicksand');
+body {
+    background: #ECE9E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Montserrat', sans-serif;
+    color: #939393;
+}
+
+header {
+    margin-bottom: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+h1 {
+    letter-spacing: 2px;
+}
+
+a {
+    color: #939393;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-top: 1px solid #939393;
+    border-bottom: 1px solid #939393;
+}
+
+.continer {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    /*   height: 100vh; */
+}
+
+.gallery a {
+    padding: 2px;
+    flex-grow: 2;
+    /*height: 150px;
+    flex-basis: 250px;*/
+     /*max-width: 300px;*/
+    */
+    /*margin: 7px;*/
+}
+
+.gallery img {
+    height: 100%;
+    width: 100%;
+}
+
+ a:hover {
+
+    filter: sepia(1);
+}
+
+p {
+    font-size: 10px;
+}
+
+footer {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+
+
+
+.box{
+    width: 250px;
+    height:150px;
+    background-image: url("img/i12.jpg");
+    background-position: center ;
+    background-size: cover;
+}
+.box1{
+    width: 250px;
+    height:150px;
+    background-image: url("img/i11.jpg");
+    background-position: top;
+    background-size: cover;
+}
+.box2{
+    width: 250px;
+    height:150px;
+    background-image: url("img/i10.jpg");
+    background-position: top;
+    background-size: cover;
+}
+.box3{
+    width: 250px;
+    height:150px;
+    background-image: url("img/i9.jpg");
+    background-position: top;
+    background-size: cover;
+}
+.box4{
+    width: 250px;
+    height:150px;
+    background-image: url("img/i8.jpg");
+    background-position: top;
+    background-size: cover;
+}
+.box5{
+    width: 250px;
+    height:150px;
+    background-image: url("img/i7.jpg");
+    background-position: top;
+    background-size: cover;
+}
+.box6{
+    width: 250px;
+    height:150px;
+    background-image: url("img/i6.jpg");
+    background-position: top;
+    background-size: cover;
+}
+.box7{
+    width: 250px;
+    height:150px;
+    background-image: url("img/i5.jpg");
+    background-position: top;
+    background-size: cover;
+}
+.box8{
+    width: 250px;
+    height:150px;
+    background-image: url("img/i4.jpg");
+    background-position: top;
+    background-size: cover;
+}
+.box9{
+    width: 250px;
+    height:150px;
+    background-image: url("img/i2.jpg");
+    background-position: top;
+    background-size: cover;
+}
+.box10{
+    width: 250px;
+    height:150px;
+    background-image: url("img/i3.jpg");
+    background-position: top;
+    background-size: cover;
+}
+.box11{
+    width: 250px;
+    height:150px;
+    background-image: url("img/i3.jpg");
+    background-position: top;
+    background-size: cover;
+}
